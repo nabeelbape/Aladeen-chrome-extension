@@ -1,2 +1,2 @@
 # Aladeen-chrome-extension
- Randomly replaces few words on a webpage with Aladeen
+ A fun google chrome extension that randomly replaces few words on a webpage with 'Aladeen'.
