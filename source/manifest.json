@@ -1,17 +1,17 @@
 {
-"manifest_version": 2,
+	"manifest_version": 2,
     "name": "Aladeen Extension",
-    "description": "Replaces random words on webpage with Aladeen. How Aladeen that is!!!",
-    "version": "1.0",
-    "content_scripts": [
-        {
-            "matches": [
-                "*://*/*"
-            ],
-            "js": [
-                "content.js"
-            ],
-            "run_at": "document_end"
-        }
-    ]
+    "description": "Replaces random words on a webpage with 'Aladeen'. How Aladeen that is!!!",
+	"icons": { "128": "icon.png" },
+    "version": "1.4",
+	"background": {
+		"scripts": [
+			"background.js"
+		],
+		"persistent": true
+	},
+	"browser_action": {},
+	"permissions": [
+		"activeTab"
+	]
 }

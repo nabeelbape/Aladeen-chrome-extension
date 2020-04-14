@@ -1,1 +1,1 @@
-This is your Chrome extension which replaces a word or phrase with a different word or phrase. 
+A fun Chrome extension that randomly replaces few words on a webpage with 'Aladeen'.
